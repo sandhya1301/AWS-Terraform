@@ -42,7 +42,6 @@ resource "aws_instance" "main" {
   private_ip    = "10.0.1.50"
 
   
-
   tags = {
     Name = "Terraform_DataSource"
   }
